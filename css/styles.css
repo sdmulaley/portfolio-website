@@ -45,12 +45,14 @@ p {
 
 .btn-outline-success, .btn-outline-success:visited {
     color: #bc2a8d !important;
-    border-color: #bc2a8d !important;
+    border-color: #bc2a8d !important; 
 }
 
 .btn-outline-success:hover, .btn-outline-success:focus, .btn-outline-success:active {
     background-color: #bc2a8d !important;
     color: #ffffff !important;
+    outline-color: #fff !important;
+    box-shadow: none !important;
 }
 
 .portfolio-title {
