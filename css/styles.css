@@ -1,0 +1,159 @@
+:root {
+  --primary-1: #fff;
+  --primary-2: #fff;
+  --primary-3: #fff;
+  --primary-4: #fff;
+}
+
+body {
+    background-color: #1A181B;
+}
+
+p {
+    font-family: 'PT Mono', monospace;
+    color: #FBFBFF;
+}
+
+/* NAVBAR */
+.nav-item {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.h1-header {
+    font-family: 'Oswald', sans-serif;
+    color: #FFF700;
+}
+
+.jumbotron {
+    background-color: #1A181B;
+}
+
+.jumbotron .lead {
+    font-family: 'PT Mono', monospace;
+    color: #FBFBFF;
+}
+
+.jumbotron .display-3 {
+    font-family: 'Oswald', sans-serif;
+    color: #FFF700;
+}
+
+#pink {
+    color: #E36397;
+}
+
+.btn-outline-success, .btn-outline-success:visited {
+    color: #bc2a8d !important;
+    border-color: #bc2a8d !important;
+}
+
+.btn-outline-success:hover, .btn-outline-success:focus, .btn-outline-success:active {
+    background-color: #bc2a8d !important;
+    color: #ffffff !important;
+}
+
+.portfolio-title {
+  font-family: 'PT Mono', monospace;
+  color: #E36397;
+}
+
+.portfolio-title a {
+  color: #E36397;
+}
+
+.portfolio-description {
+  font-family: 'PT Mono', monospace;
+  color: #FBFBFF;
+}
+
+.portfolio-time {
+  font-family: 'PT Mono', monospace;
+  color: #48B8D0;
+}
+
+.portfolio-bullets {
+  font-family: 'PT Mono', monospace;
+  color: #FBFBFF;
+}
+
+.job-title {
+    font-family: 'PT Mono', monospace;
+    color: #E36397;
+}
+
+.job-title a {
+    color: #E36397;
+}
+
+.job-description {
+    font-family: 'PT Mono', monospace;
+    color: #FBFBFF;
+}
+
+.job-time {
+    font-family: 'PT Mono', monospace;
+    color: #48B8D0;
+}
+
+.job-bullets {
+    font-family: 'PT Mono', monospace;
+    color: #FBFBFF;
+}
+
+/* WEBSITE ANIMATIONS */
+ /* Main Jumbotron Text Animation */
+ .text-shadow-pop-tl {
+	-webkit-animation: text-shadow-pop-tl 0.6s both;
+	        animation: text-shadow-pop-tl 0.6s both;
+}
+
+ @-webkit-keyframes text-shadow-pop-tl {
+    0% {
+      text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      text-shadow: -1px -1px #555555, -2px -2px #555555, -3px -3px #555555, -4px -4px #555555, -5px -5px #555555, -6px -6px #555555, -7px -7px #555555, -8px -8px #555555;
+      -webkit-transform: translateX(8px) translateY(8px);
+              transform: translateX(8px) translateY(8px);
+    }
+  }
+  @keyframes text-shadow-pop-tl {
+    0% {
+      text-shadow: 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555, 0 0 #555555;
+      -webkit-transform: translateX(0) translateY(0);
+              transform: translateX(0) translateY(0);
+    }
+    100% {
+      text-shadow: -1px -1px #555555, -2px -2px #555555, -3px -3px #555555, -4px -4px #555555, -5px -5px #555555, -6px -6px #555555, -7px -7px #555555, -8px -8px #555555;
+      -webkit-transform: translateX(8px) translateY(8px);
+              transform: translateX(8px) translateY(8px);
+    }
+  }
+  /* End Main Jumbotron Text Animation */
+  /* Job Bullets Text Animation */
+  .fade-in {
+	-webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  /* END WEBSITE ANIMATIONS */  
